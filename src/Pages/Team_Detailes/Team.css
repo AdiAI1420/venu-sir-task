@@ -1,0 +1,169 @@
+
+  
+  /*--------------------------------------------------------------
+  # Team
+  --------------------------------------------------------------*/
+  .team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #343a40;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .team .member .member-info {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+  }
+  
+  .team .member .member-info-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    transition: bottom 0.4s;
+  }
+  
+  .team .member .member-info-content h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .team .member .member-info-content span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  .team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+    height: 48px;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+  }
+  
+  .team .member .social a {
+    transition: color 0.3s;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .team .member .social a:hover {
+    color: #428bca;
+  }
+  
+  .team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+  .team .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+    opacity: 1;
+    transition: 0.4s;
+  }
+  
+  .team .member:hover .member-info-content {
+    bottom: 60px;
+    transition: bottom 0.4s;
+  }
+  
+  .team .member:hover .social {
+    bottom: 0;
+    transition: bottom ease-in-out 0.4s;
+  }
+
+
+
+  /* Team.css */
+
+.member {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .member:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .member-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+  }
+  
+  .member:hover .member-info {
+    transform: translateY(0);
+  }
+  
+  .member-info-content {
+    text-align: center;
+  }
+  
+  .member-info-content h4 {
+    margin-bottom: 5px;
+  }
+  
+  .member-info-content span {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .social {
+    margin-top: 10px;
+  }
+  
+  .social a {
+    margin-right: 5px;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .member:hover .social a {
+    color: #007bff; /* Change to the desired hover color */
+  }
+  
+
+
+
+  /* Team.css */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px; /* Adjust margin as needed */
+  }
+  
+  .section-title h2 {
+    font-size: 36px;
+    color: #333; /* Adjust color as needed */
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .section-title p {
+    font-size: 18px;
+    color: #777; /* Adjust color as needed */
+    line-height: 1.5;
+  }
+  
+  
+  

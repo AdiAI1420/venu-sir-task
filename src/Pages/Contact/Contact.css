@@ -1,0 +1,18 @@
+.overlay-container {
+    position: relative;
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-business-communication-concept_52683-76159.jpg?t=st=1706331476~exp=1706332076~hmac=ec722fd55bd75ed73aaf10b32374062702570860e224db0dbfbdcc37a30dc73d'); /* Replace with the actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%; /* Adjust the height as needed */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+  }
+  
