@@ -1,95 +1,93 @@
 import React from 'react';
+import "./Navbar.css"
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-        <div className="container">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" />
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link disabled"
-                  href="#"
-                  tabIndex={-1}
-                  aria-disabled="true"
-                >
-                  Disabled
-                </a>
-              </li>
+    <nav class="navbar navbar-expand-lg navbar-dark p-3 fixed-top"  style={{backgroundColor:"white"}}>
+    <div class="container-fluid">
+    
+      <Link to="/" class="navbar-brand text-dark" >
+      <img  src="https://insemitech.com/wp-content/uploads/2022/03/insemi-logo.png" alt="logo" height="30" /> </Link>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+       
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+              <li><Link to="/about" class="dropdown-item" >About </Link></li>
+              <li><Link to="" class="dropdown-item" >Newsroom </Link></li>
+            
             </ul>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+
+
+
+          <li class="nav-item dropdown">
+          <a class="nav-link mx-2 dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+            <li><a class="dropdown-item" href="#">Contact us</a></li>
+          </ul>
+        </li>
+
+
+
+
+
+
+        <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Careers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Contact us</a></li>
+            </ul>
+          </li>
+
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Contact us</a></li>
+            </ul>
+          </li>
+
+
+
+          <li class="nav-item">
+          <a class="nav-link mx-2  text-dark" aria-current="page" href="#">Conact</a>
+        </li>
+      
+
+        </ul>
+      </div>
+    </div>
+    </nav>
+  
     </>
   );
-};
+}
+
 
 export default Navbar;

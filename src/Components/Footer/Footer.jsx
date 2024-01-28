@@ -87,24 +87,24 @@ const Footer = () => {
             </div>
   
 
-              <div className="col-lg-3 col-md-6 footer-contact">
-                <h4>Contact Us</h4>
-                <p>
-                 Hyderabad  <br />
+              <div className="col-lg-3 col-md-6 footer-contact ">
+                <h4 className='text-white'>Contact Us</h4>
+                <h6 className="text-white-50">
+                 Hyderabad  <br />  <br />
                  Srinagar Colony 
                  500054
-                  <br />
+                  <br />  <br />
                 Hyderabad  <br />
                   <br />
                   <strong>Phone:</strong> +91 90141 90909
                   <br />
                   <strong>Email:</strong> venu@gmail.com
                   <br />
-                </p>
+                </h6>
               </div>
               <div className="col-lg-3 col-md-6 footer-info">
-              <h3>About Insemi Venu</h3>
-              <p>
+              <h3 className='text-white'>About Insemi Venu</h3>
+              <p className='text-white-50'>
                 InSemi is a semiconductor design and embedded system solutions company with 900+ technology specialists located across the globe, empowering digital infrastructure of tomorrow.
               </p>
               <div className="social-links mt-3">

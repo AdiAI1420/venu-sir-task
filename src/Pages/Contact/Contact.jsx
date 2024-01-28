@@ -4,22 +4,28 @@ import './Contact.css';
 const Contact = () => {
   return (
     <>
-      <div className="container overlay-container" style={{ backgroundColor: "#efefef", padding: "50px 0" }}>
-        <div className="row ">
+      <div className="container-fluid overlay-container" style={{ backgroundColor: "#efefef", padding: "50px 0" }}>
+        
+      
+      <div className="container">
+      <div className="row ">
         <div className="col-md-6 mx-auto contact-form ">
-        <h3 className='fw-bold font-monospace' style={{ fontSize: "35px",color:"black" }}>Thinking of Innovation?</h3>
-        <h6 className="mb-5" style={{ fontSize: "20px",color:"black" }}>
+        <h3 className='fw-bold ' style={{ fontSize: "35px",color:"#1d3654" }}>Thinking of Innovation?</h3>
+        <h6 className="mb-5" style={{ fontSize: "20px",color:"#1d3654" }}>
           Let InSemi be your technology partner to accelerate and execute.
         </h6>
       </div>
 
-          <div  className="col-md-6 shadow"  style={{
+          <div  className="col-md-6  card shadow"  style={{
             boxShadow: "rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px"
           }}>
+
+          <h3 className=' text-center fw-semibold' style={{marginTop:"50px",color:"#1d3654"}}>Get in Touch <br /> Let’s talk about your requirments</h3>
             <form className="p-4" method="post" id="contactForm" name="contactForm">
-              <p className='display-6 font-monospace fw-semibold' style={{marginTop:"-150px"}}>Get in Touch <br /> Let’s talk about your requir<small className='text-white'>ments</small></p>
+             
 
               <div className="row " >
+             
                 <div className="col-md-6 mb-3">
                   <div className="form-group">
                     <input type="text" className="form-control" placeholder='First Name' />
@@ -73,7 +79,7 @@ const Contact = () => {
               <div className="wpcf7-response-output" aria-hidden="true"></div>
             </form>
           </div>
-        </div>
+        </div></div>
       </div>
     </>
   );

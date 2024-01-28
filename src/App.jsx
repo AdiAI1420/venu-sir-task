@@ -1,37 +1,42 @@
 import React from 'react'
+
+import "./index.css"
 import Navbar from './Components/Navbar/Navbar'
-import Carousel from './Components/Carosule/Carousel'
+import Carouseldata from './Components/Carosule/Carouseldata'
 import Capabilities from './Pages/Capabilities/Capabilities'
 import CapabilityDetailes from './Pages/CapabilitiesDetailes/Capability_Detailes'
-import Diffrence_Counts from './Pages/Diifrence_Counts/Diffrence_Counts'
+
 
 import Footer from "./Components/Footer/Footer"
 import Team from './Pages/Team_Detailes/Team'
 
 import Testimonials from "./Pages/Testimonials/Testimonials"
 import Contact from './Pages/Contact/Contact'
-import Questions from './Questions/Questions'
+
+import About from './Pages/Company/About/About'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DiffrenceCounts from './Pages/Diifrence_Counts/DiffrenceCounts'
+
+
 const App = () => {
   return (
 <>
 
+<BrowserRouter>
 <Navbar />
+<Routes>
+<Route path="/" element={<Carouseldata/>} />
+<Route path="/about" element={<About />} />
 
-<Carousel />
+</Routes>
 
-<Capabilities />
+</BrowserRouter>
 
 
-<CapabilityDetailes />
 
-<Diffrence_Counts />
 
-<Team />
 
-<Testimonials/>
-<Questions />
-
-<Contact />
 <Footer />
 
 </>
