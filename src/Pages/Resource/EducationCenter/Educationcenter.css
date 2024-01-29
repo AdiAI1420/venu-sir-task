@@ -1,0 +1,113 @@
+body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container{
+    padding-top: 0px!important;
+}
+#logo {
+    content: url("/wp-content/uploads/2022/03/insemi-logo.png");
+}
+#main-header #top-menu li a{
+    color: #1D3654!important;
+}
+.pageContainer{
+    padding: 120px 0px 70px 0px;
+    line-height: 1.6;
+}
+.pageContainer .pageHeader{
+    padding-bottom: 40px
+}
+.pageTitle{
+    font-size: 22px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px
+}
+.pageContainer .educationCenterLeft{
+    padding: 20px 20px;
+    background: #fff;
+    font-size: 14px;
+}
+.pageContainer .educationCenterFilter{
+    list-style: circle;
+    padding-left: 30px;
+    margin-bottom: 0px
+}
+.pageContainer .educationCenterFilter li{
+/*	padding-left: 2em;*/
+    padding-top: 7px;
+padding-bottom: 7px;
+}
+
+.pageContainer .educationCenterFilter li a{
+    font-size: 14px;
+    color: #191919;
+    font-weight: 600
+}
+
+.pageContainer .educationCenterSubFilter{
+    list-style: none;
+padding-left: 0px;
+margin-left: 0px;
+padding-top: 8px;
+display: none;
+}
+.pageContainer .educationCenterSubFilter li{
+    padding-left: 3em;
+    padding-bottom: 10px
+}
+.pageContainer .educationCenterSubFilter li:before{
+    content: "\f1db"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -2em;
+width: 2em;
+font-size: 12px;
+color: #bababa;
+}
+.pageContainer .educationCenterSubFilter li a{
+    font-size: 14px;
+    color: #757575;
+    font-weight: 500;
+}
+.educationCenterSubFilter .currentPost{
+    color: #ff6b00!important;
+}
+.educationCenterSubFilter .currentPost a{
+    color: #ff6b00!important;
+}
+
+
+.educationCenterSingle{
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 30px;
+}
+.educationCenterSingle h3{
+    font-size: 26px;
+padding-top: 20px;
+padding-bottom: 20px
+}
+.educationCenterSingle h4{
+font-size: 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.educationCenterSingle ul li{
+    padding-bottom: 7px;
+}
+.educationCenterSingle .ctaStripContainer{
+    background: #191919;
+padding: 5px 20px;
+margin-bottom: 30px;
+border-radius: 5px;
+box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+.educationCenterSingle .ctaStripContainer a:hover{
+    text-decoration: none!important;
+}
+.educationCenterSingle .ctaStripContainer .col-md-4{
+    text-align: center;
+}
+.educationCenterSingle .ctaStripContainer .btn-default{
+    background: #ff6b00!important;
+    color: #ffffff;
+    font-weight: bold;
+}

@@ -17,6 +17,11 @@ import About from './Pages/Company/About/About'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DiffrenceCounts from './Pages/Diifrence_Counts/DiffrenceCounts'
+import Frontend from './Pages/Services/Semicondutor/Front-end-design-and-verification/Frontend'
+import ContactPage from './Pages/ContactPage/contact'
+import NewsRoom from './Pages/Company/Newsroom/NewsRoom'
+import Educationcenter from './Pages/Resource/EducationCenter/Educationcenter'
+import Blogs from './Pages/Resource/Blog/Blogs'
 
 
 const App = () => {
@@ -28,6 +33,11 @@ const App = () => {
 <Routes>
 <Route path="/" element={<Carouseldata/>} />
 <Route path="/about" element={<About />} />
+<Route path="/NewsRoom" element={<NewsRoom />} />
+<Route path="/frontend" element={<Frontend  />} />
+<Route path="/Contact" element={<ContactPage  />} />
+<Route path="/Educationcenter" element={<Educationcenter  />} />
+<Route path="/Blogs" element={<Blogs  />} />
 
 </Routes>
 

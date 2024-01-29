@@ -11,10 +11,10 @@ const Footer = () => {
 <>
 
 <>
-  <footer id="footer" style={{backgroundColor:"#45484a  "}}>
+  <footer id="footer" style={{backgroundColor:"#1d3654"}} className='mt-5'>
 
        
-    <div className="footer-top"style={{backgroundColor:"#45484a  "}} >
+    <div className="footer-top"style={{backgroundColor:"#1d3654   "}} >
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-xl-10">

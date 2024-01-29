@@ -1,0 +1,39 @@
+body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container{
+    padding-top: 0px!important;
+}
+#logo {
+    content: url("/wp-content/uploads/2022/03/insemi-logo.png");
+}
+#main-header #top-menu li a{
+    color: #1D3654!important;
+}
+.pageContainer{
+    padding:  80px 0px;
+}
+.blogsHeaderWrapper{
+    padding: 30px 0px;
+}
+.blogsContentWrapper{
+    padding-top: 30px;
+}
+.blogsHeaderContainer h2, .blogsContentContainer h2{
+    font-size:  24px!important;
+    padding-bottom: 30px;
+}
+.blogsMostPopularItem{
+    padding: 10px;
+    background: #efefef;
+    border: 1px solid #e7e7e7;
+}
+.blogsMostPopularItem .card-category{
+    padding-bottom: 0px;
+}
+.blogsContentContainer .fullBlogItem .card-title{
+    font-weight: bold;
+    font-size: 18px!Important;
+    color: #1D3654;
+}
+
+.blogsFeaturedContainer .featuredBlogItem .card-title{
+    padding-top:  10px;
+}
