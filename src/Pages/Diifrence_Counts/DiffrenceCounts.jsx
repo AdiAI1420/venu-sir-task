@@ -34,12 +34,12 @@ const DiffrenceCounts = () => {
   }, []);
 
   return (
-    <div className='container'>
+    <div className='container-fluid mt-5'>
       <p>
         <div className="d-flex justify-content-center fs-1 fw-bold" style={{ color: 'teal', fontFamily: 'Arial, sans-serif' }}>The InSemi Difference</div>
       </p>
       <p>
-        <div className="container  text-center">
+        <div className="container  text-center mt-5">
           <div className="row">
             <div className="col-sm">
               <p ref={text1Ref} className="fs-2 font-weight-bold" style={{ color: 'red', fontFamily: 'Arial, sans-serif',fontSize:"80px" }}>60+</p>

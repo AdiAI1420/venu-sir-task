@@ -1,211 +1,210 @@
 
 .whatWeDo{
-    padding: 30px 0px;
-  }
-  .whatWeDoItem h4{
-    font-size: 22px!important;
-    padding: 20px 0px
-  }
-  .whatWeDoItem a{
-    font-size: 18px!important;
-  }
-  
-  .banner-card {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .banner {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .banner-card:hover .banner {
-    transform: scale(1.05);
-  }
-  
-  .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-  }
-  
+  padding: 30px 0px;
+}
+.whatWeDoItem h4{
+  font-size: 22px!important;
+  padding: 20px 0px
+}
+.whatWeDoItem a{
+  font-size: 18px!important;
+}
+
+.banner-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.banner-card:hover .banner {
+  transform: scale(1.05);
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.banner-button {
+  background-color: #34b8ed;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 14px;
+  border-radius: 41px;
+  cursor: pointer;
+}
+
+/* Card description styles */
+.card-description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.testimonial {
+  flex: 1 1 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 100%;
+  height: auto;
+}
+
+/* Map styles */
+.map-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.map:hover {
+  transform: scale(1.05);
+}
+
+/* Form styles */
+.form-container {
+  text-align: center;
+  box-shadow: 5px 2px 16px 4px #bfbfbf;
+  padding: 50px;
+  margin: 20px;
+}
+
+.form-heading {
+  color: #1D3654;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-subheading {
+  font-size: medium;
+  font-weight: 900;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.select-bar {
+  width: 100%;
+  padding: 12px;
+}
+
+.lengthbox {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.form-control {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Contact icons styles */
+.icons {
+  height: 25px;
+  width: 25px;
+  padding: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+/* Social media and location styles */
+.social-media,
+.location {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Global styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive styles using Bootstrap classes */
+@media (max-width: 768px) {
   .banner h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
   }
-  
-  .banner-button {
-    background-color: #34b8ed;
-    color: #fff;
-    padding: 10px 30px;
-    font-size: 14px;
-    border-radius: 41px;
-    cursor: pointer;
-  }
-  
-  /* Card description styles */
-  .card-description {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
-  
+
   .testimonial {
-    flex: 1 1 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
+    flex: 1 1 100%;
   }
-  
-  .testimonial img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Map styles */
-  .map-heading {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-  }
-  
-  .map {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .map:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Form styles */
-  .form-container {
-    text-align: center;
-    box-shadow: 5px 2px 16px 4px #bfbfbf;
-    padding: 50px;
-    margin: 20px;
-  }
-  
-  .form-heading {
-    color: #1D3654;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .form-subheading {
-    font-size: medium;
-    font-weight: 900;
-  }
-  
-  .input-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  .select-bar {
-    width: 100%;
-    padding: 12px;
-  }
-  
-  .lengthbox {
-    width: 100%;
-    margin-right: 10px;
-  }
-  
-  .form-control {
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  /* Contact icons styles */
+
   .icons {
-    height: 25px;
-    width: 25px;
-    padding: 8px;
-    transition: transform 0.3s ease-in-out;
+    margin: 5px;
   }
-  
-  .icons:hover {
-    transform: scale(1.2);
-  }
-  
-  /* Social media and location styles */
-  .social-media,
-  .location {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  /* Global styles */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Responsive styles using Bootstrap classes */
-  @media (max-width: 768px) {
-    .banner h2 {
-      font-size: 1.5rem;
-    }
-  
-    .testimonial {
-      flex: 1 1 100%;
-    }
-  
-    .icons {
-      margin: 5px;
-    }
-  }
-   */
+}
+ */
 
 
 
 
-   .mapAddress h3{
-    padding-bottom: 20px
-  }
-  .mapAddress p{
-    font-size:16px;
-  }
-  .mapAddress ul{
-    padding: 10px 0px
-  }
-  .mapAddress .list-inline-item{
-    padding:  0px 5px
-  }
-  .mapAddress .list-inline-item a{
-    font-size: 24px;
-    color:#191919!important;
-  }
+ .mapAddress h3{
+  padding-bottom: 20px
+}
+.mapAddress p{
+  font-size:16px;
+}
+.mapAddress ul{
+  padding: 10px 0px
+}
+.mapAddress .list-inline-item{
+  padding:  0px 5px
+}
+.mapAddress .list-inline-item a{
+  font-size: 24px;
+  color:#191919!important;
+}
 
 
 
-  .whatWeDo{
-    padding: 30px 0px;
-  }
-  .whatWeDoItem h4{
-    font-size: 22px!important;
-    padding: 20px 0px
-  }
-  .whatWeDoItem a{
-    font-size: 18px!important;
-  }
+.whatWeDo{
+  padding: 30px 0px;
+}
+.whatWeDoItem h4{
+  font-size: 22px!important;
+  padding: 20px 0px
+}
+.whatWeDoItem a{
+  font-size: 18px!important;
+}
 
 
-  

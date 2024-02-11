@@ -14,3 +14,21 @@ a {
     text-align:center
   }
 }
+
+
+
+  .whatwedoContainer .whatwedoItem{
+    background: #fff;
+    border-radius:5px;
+    padding:10px;
+    margin-bottom: 20px;
+    min-height:180px
+  }
+  .whatwedoContainer img{
+    padding-bottom: 20px
+  }
+  .whatwedoContainer h4{
+    padding-bottom: 20px;
+    font-size: 16px!important;
+    line-height: 1.7
+  }

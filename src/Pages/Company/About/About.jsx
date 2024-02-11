@@ -4,39 +4,41 @@ import Aboutcontact from "./Aboutcontact/Aboutcontact";
 const About = () => {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col">
-            <div className="card bg-dark text-white py-3">
-              <img
-                src="https://insemitech.com/wp-content/uploads/2022/05/About-us-banner.jpg"
-                className="card-img img-fluid"
-                alt="..."
-              />
-              <div className="card-img-overlay py-5 mx-5  text-center text-lg-start">
-                <h1 className="card-title display-4">
-                  Helping Customers <br />{" "}
-                  <strong style={{ color: "#287ea5 " }}>
-                    Drive Innovation
-                  </strong>
-                </h1>
-                <h3 className="card-text lead">
-                  With our profound expertise in end-to-end <br /> semiconductor
-                  designing
-                </h3>
-                <button className="btn btn-info">Talk To Expert</button>
-              </div>
-            </div>
+      <div className="container- mt-5 ">
+      <div className="row ">
+      <div className="col ">
+        <div className="text-white ">
+          <img
+            src="https://insemitech.com/wp-content/uploads/2022/05/About-us-banner.jpg"
+            className=" img-fluid "
+            alt="About us banner"
+          />
+          <div className="card-img-overlay mt-5 mx-5 "  >
+            <h1 className="card-title text-white mt-5 mx-5">
+              Helping Customers <br />
+              <strong style={{ color: "white" }}>Drive Innovation</strong>
+            </h1>
+            <h3 className="text-white" >
+              With our profound expertise in end-to-end <br /> semiconductor designing
+            </h3>
+        
           </div>
         </div>
       </div>
+    </div>
+    
+      </div>
 
+
+
+
+      
       <div className="container mt-5">
         <h3 className="text-center mt-5">Who Are We?</h3>
         <div className="row">
           <div className="col-lg-6 mt-4">
             <h3 className="text-muted">
-              InSemi has been a market leader in the semiconductor design and
+              Soc Circuite has been a market leader in the semiconductor design and
               embedded system solutions space since our inception in 2013
             </h3>
           </div>
@@ -50,7 +52,7 @@ const About = () => {
               design tape-outs in advanced technology nodes all the way to 5nm.
             </p>
             <p className="lead">
-              InSemi is growing expeditiously and with a team of 1000+
+            Soc Circuite is growing expeditiously and with a team of 1000+
               technology specialists, we bring a competitive advantage, agile
               mindset, and innovation to address technological challenges and
               transform businesses.
@@ -89,7 +91,7 @@ const About = () => {
                 <div className="col-md-8">
                   <div className="card-body">
                     <h5 className="card-title text-info">Mission</h5>
-                    <p className="card-text">
+                    <p className="text-mute">
                       To create and integrate advanced, innovative products with
                       our thorough understanding of the electronics value chain,
                       transforming the digital infrastructure of tomorrow.
@@ -98,7 +100,7 @@ const About = () => {
 
                   <div className="card-body">
                     <h5 className="card-title text-info">Mission</h5>
-                    <p className="card-text">
+                    <p className="text-mute">
                       To create and integrate advanced, innovative products with
                       our thorough understanding of the electronics value chain,
                       transforming the digital infrastructure of tomorrow.
@@ -127,7 +129,7 @@ const About = () => {
                 <div className="col-md-8 ">
                   <div className="card-body">
                     <h5 className="card-title text-info">Vision</h5>
-                    <p className="card-text">
+                    <p className="text-mute">
                       To emerge as a semiconductor design partner of choice for
                       the global enterprise and technology giants; delivering
                       value through innovation.
@@ -136,7 +138,7 @@ const About = () => {
 
                   <div className="card-body">
                     <h5 className="card-title text-info">Vision</h5>
-                    <p className="card-text">
+                    <p className="text-mute">
                       To emerge as a semiconductor design partner of choice for
                       the global enterprise and technology giants; delivering
                       value through innovation.
@@ -170,7 +172,7 @@ const About = () => {
               </div>
 
               <div className="col-sm-6">
-                <h1>Why InSemi?</h1>
+                <h1>Why Soc Circuits?</h1>
 
                 <div className="row">
                   <div className="col-sm-6">
@@ -185,7 +187,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                           <div className="card-body">
-                            <p className="card-text">
+                            <p className="text-mute">
                               A Global Market Leader in providing innovative
                               Semiconductor Design services worldwide.
                             </p>
@@ -207,7 +209,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                           <div className="card-body">
-                            <p className="card-text">
+                            <p className="text-mute">
                               Customer-oriented Mindset to cater to our clients’
                               preferences efficiently and diligently.
                             </p>
@@ -231,7 +233,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                           <div className="card-body">
-                            <p className="card-text">
+                            <p className="text-mute">
                               Extensive Talent Pool of electronics design
                               experts with global exposure, innovative Mindset,
                               and perseverance
@@ -254,7 +256,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                           <div className="card-body">
-                            <p className="card-text">
+                            <p className="text-mute">
                               100% Transparency & Seamless Collaboration with
                               customers to ensure end-to-end customer
                               satisfaction
@@ -282,7 +284,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                           <div className="card-body">
-                            <p className="card-text text-end">
+                            <p className="text-mute text-end">
                             A distinguished advocate of industry-standard best practices and frameworks with Integrity and insured delivery of excellence
                             </p>
                           </div>
@@ -303,7 +305,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                           <div className="card-body">
-                            <p className="card-text text-end">
+                            <p className="text-mute text-end">
                             Passion-driven & Committed in delivering value through innovation and boost customer satisfaction
                             </p>
                           </div>

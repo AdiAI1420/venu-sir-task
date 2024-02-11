@@ -6,11 +6,11 @@ import './contact.css';
 const ContactPage = () => {
   return (
     <>
-      <div className="banner-card">
+      <div className="banner-card mt-5">
         <img src="https://insemitech.com/wp-content/uploads/2022/05/contact-banner.jpg" className="banner" />
-        <div className="banner-text">
-          <h2>Contact</h2>
-          <h2>Welcome to InSemi!<br />We are here to assist you.</h2>
+        <div className="banner-text text-white">
+          <h2 className='text-white'>Contact</h2>
+          <h1 className='text-white'>Welcome to soc-circuits!<br />We are here to assist you.</h1>
           <button className="banner-button">WRITE TO US →</button>
         </div>
       </div>
@@ -20,21 +20,21 @@ const ContactPage = () => {
             <div className="whatWeDoItem text-center">
               <img decoding="async" src="https://insemitech.com/wp-content/uploads/2022/05/contact-12.png" />
               <h4>Business Query</h4>
-              <a href="mailto:business@insemitech.com">business@insemitech.com</a>
+              <a href="mailto:business@insemitech.com">business@soc circuits.com</a>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="whatWeDoItem text-center">
               <img decoding="async" src="https://insemitech.com/wp-content/uploads/2022/05/contact-13.png" />
               <h4>Careers</h4>
-              <a href="mailto:careers@insemitech.com">careers@insemitech.com</a>
+              <a href="mailto:careers@insemitech.com">careers@soccircuits.com</a>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="whatWeDoItem text-center">
               <img decoding="async" src="https://insemitech.com/wp-content/uploads/2022/05/contact-14.png" />
               <h4>PR / Marketing</h4>
-              <a href="mailto:marketing@insemitech.com">marketing@insemitech.com</a>
+              <a href="mailto:marketing@soccircuits.com">marketing@soccircuits.com</a>
             </div>
           </div>
         </div>

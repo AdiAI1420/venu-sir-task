@@ -3,10 +3,10 @@ import "./Educationcenter.css"
 const Educationcenter = () => {
   return (
  <>
-<div id="main-content">
+<div id="main-content ">
   <div className="pageContainer">
     <div className="pageContentContainer">
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
           <div className="col-sm-4">
             <div className="educationCenterLeft shadow">
@@ -115,8 +115,8 @@ const Educationcenter = () => {
               <p>Secondly, chiplet technology enhances device performance. By designing chiplets for specific tasks, it leads to quicker and more efficient operations. Moreover, it contributes to reduced power consumption through the efficient utilization of resources.</p>
               <p>Ultimately, chiplet technology has the potential to catalyze innovation within the electronics industry. Through the creation of specialized and customized products, it opens doors to the development of novel technologies and solutions.</p>
               <p>&nbsp;</p>
-              <h5><em><strong>Reference :</strong></em></h5>
-              <p>Anysilicon [<a href="https://anysilicon.com/the-ultimate-guide-to-chiplets/">https://anysilicon.com/the-ultimate-guide-to-chiplets/</a>]</p>
+           
+              
             </div>
           </div>
         </div>

@@ -103,9 +103,9 @@ const Footer = () => {
                 </h6>
               </div>
               <div className="col-lg-3 col-md-6 footer-info">
-              <h3 className='text-white'>About Insemi Venu</h3>
+              <h3 className='text-white'>About soc circuits </h3>
               <p className='text-white-50'>
-                InSemi is a semiconductor design and embedded system solutions company with 900+ technology specialists located across the globe, empowering digital infrastructure of tomorrow.
+              SoC Circuits is a semiconductor design and embedded system solutions company with 900+ technology specialists located across the globe, empowering digital infrastructure of tomorrow.
               </p>
               <div className="social-links mt-3">
               <a href="#" className="no-underline" target="_blank" rel="noopener noreferrer">
@@ -137,7 +137,7 @@ const Footer = () => {
       <strong>
         <span style={{ color: '#555' }}>
           {' '}
-          Contact | Careers | Privacy Policy © 2022 InSemi Technologies Pvt Ltd.
+          Contact | Careers | Privacy Policy © 2022 soc circuits Technologies Pvt Ltd.
         </span>
       </strong>
       . All Rights Reserved

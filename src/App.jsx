@@ -19,10 +19,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DiffrenceCounts from './Pages/Diifrence_Counts/DiffrenceCounts'
 import Frontend from './Pages/Services/Semicondutor/Front-end-design-and-verification/Frontend'
 import ContactPage from './Pages/ContactPage/contact'
-import NewsRoom from './Pages/Company/Newsroom/NewsRoom'
+
 import Educationcenter from './Pages/Resource/EducationCenter/Educationcenter'
 import Blogs from './Pages/Resource/Blog/Blogs'
+import Lifeatinsemi from './Pages/Careers/LifeAtInsemi/Lifeatinsemi'
 
+
+import "./App.css"
+import Currentopennings from './Pages/Careers/currentopenings/Currentopennings'
+import Insemi from './Pages/Insemi/Insemi'
+
+
+import BackToTop from 'react-custom-back-to-top-button';
 
 const App = () => {
   return (
@@ -31,19 +39,20 @@ const App = () => {
 <BrowserRouter>
 <Navbar />
 <Routes>
-<Route path="/" element={<Carouseldata/>} />
+<Route path="/" element={<Insemi/>} />
 <Route path="/about" element={<About />} />
-<Route path="/NewsRoom" element={<NewsRoom />} />
+
 <Route path="/frontend" element={<Frontend  />} />
 <Route path="/Contact" element={<ContactPage  />} />
 <Route path="/Educationcenter" element={<Educationcenter  />} />
 <Route path="/Blogs" element={<Blogs  />} />
+<Route path="/Lifeatinsemi" element={<Lifeatinsemi  />} />
+<Route path="/Currentopennings" element={<Currentopennings  />} />
 
 </Routes>
 
 </BrowserRouter>
-
-
+<BackToTop  icon={<i className='fas fa-sort-up'></i>}/>
 
 
 

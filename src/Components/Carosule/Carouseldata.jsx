@@ -169,7 +169,7 @@ const Carouseldata = () => {
 
 
 
-<div>
+<div className='mt-5'>
   <div id="carouselExampleCaptions" className="carousel slide">
     <div className="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
@@ -179,15 +179,15 @@ const Carouseldata = () => {
     
     
       </div>
-    <div className="carousel-inner">
+    <div className="carousel-inner mt-4">
       <div className="carousel-item active">
         <img src="../assets/dft-banner.jpg" className="d-block w-100" alt="..."  style={{height:"600px"}}/>
         <div className="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0">
-          <h2 className=" bg-opacity-50 py-2 px-4">
-          Front End Design & Verification</h2>
-          <p className=" bg-opacity-50 py-2 px-4">
-          Helping businesses develop error-free HDL models, completely in line with the defined specifications</p>
-          <a href="#" className="btn btn-outline-light px-4 py-2 rounded-0">Learn More</a>
+          <h1 className=" bg-opacity-50  text-white">
+          Front End Design & Verification</h1>
+          <h6 className=" bg-opacity-50  text-white">
+          Helping businesses develop error-free HDL models, completely in line with the defined specifications</h6>
+          
         </div>
       </div>
       <div className="carousel-item">
@@ -196,7 +196,7 @@ const Carouseldata = () => {
           <h2 className=" bg-opacity-50 py-2 px-4">Empowering the Digital Infrastructure of Tomorrow | InSemi Technology</h2>
           <p className=" bg-opacity-50 py-2 px-4">The sustainable semiconductor &amp; embedded technology company, taking the digital world by storm and delivering value through innovation
             slide.</p>
-          <a href="#" className="btn btn-outline-light px-4 py-2 rounded-0">Learn More</a>
+         
         </div>
       </div>
       <div className="carousel-item">
@@ -205,7 +205,7 @@ const Carouseldata = () => {
           <h2 className=" bg-opacity-50 py-2 px-4">Third slide label</h2>
           <p className=" bg-opacity-50 py-2 px-4">Some representative placeholder content for the third
             slide.</p>
-          <a href="#" className="btn btn-outline-light px-4 py-2 rounded-0">Learn More</a>
+          
         </div>
       </div>
       <div className="carousel-item">
@@ -214,7 +214,7 @@ const Carouseldata = () => {
         <h2 className=" bg-opacity-50 py-2 px-4">Forth slide label</h2>
         <p className=" bg-opacity-50 py-2 px-4">Some ddd representative placeholder content for the third
           slide.</p>
-        <a href="#" className="btn btn-outline-light px-4 py-2 rounded-0">Learn More</a>
+        
       </div>
     </div>
     </div>

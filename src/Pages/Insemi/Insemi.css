@@ -1,0 +1,69 @@
+.ourCapabilitiesItem{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 15px
+    }
+    .ourCapabilitiesItem img{
+    width: 60px;
+    }
+    .ourCapabilitiesItem h4{
+    padding-top:20px
+    }
+    .ourCapabilitiesItem h4:hover a:after {
+    opacity:1;
+    transition: .5s;
+    padding-left: 30px
+    }
+    .ourCapabilitiesItem h4 a:after{
+    opacity:0;
+    content: "→";
+    padding-left: 10px;
+    transition: .5s;
+    font-size: 26px
+    }
+
+
+
+    .insemiDifferenceItem{
+        min-height: 160px;
+        padding-top: 20px
+      }
+      .insemiDifferenceItem h2{
+        font-size: 50px!important;
+        text-align:center;
+      }
+      .insemiDifferenceItem p{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+
+      .insemiInsightsItem{
+        padding: 30px;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      .insemiInsightsItem p{
+        font-size: 14px;
+      }
+      .insemiInsightsItem h4{
+        font-size: 18px;
+      }
+
+
+      .careerTestimonialContainer img{
+        padding:20px 0px
+      }
+
+
+
+      .contactForm{
+        padding:50px 0px;
+        border-radius:20px;background:#fff
+      }
+      .contactForm h4{
+        padding-bottom: 50px;
+      }
