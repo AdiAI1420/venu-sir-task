@@ -586,7 +586,7 @@ const Insemi = () => {
                   <div className="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
                     <div className="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
                       <div className="et_pb_text_inner">
-                        <h2 className="text-center">The InSemi Difference</h2>
+                        <h2 className="text-center">The SoC Circuits Difference</h2>
                       </div>
                     </div>
                   </div>
@@ -595,12 +595,7 @@ const Insemi = () => {
                   <div className="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
                     <div className="et_pb_module et_pb_code et_pb_code_2">
                       <div className="et_pb_code_inner">
-                        <style
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              "\n  .insemiDifferenceItem{\n    min-height: 160px;\n    padding-top: 20px\n  }\n  .insemiDifferenceItem h2{\n    font-size: 50px!important;\n    text-align:center;\n  }\n  .insemiDifferenceItem p{\n    font-size: 16px;\n    font-weight: bold;\n    text-align: center;\n    padding-top: 20px;\n    padding-bottom: 20px;\n  }\n"
-                          }}
-                        />
+                       
                         <div className="insemiDifference">
                           <div className="row">
                             <div className="col-sm-3">
@@ -776,7 +771,7 @@ const Insemi = () => {
                                         paddingBottom: 30
                                       }}
                                     >
-                                      Recognized InSemi as one of the 10 Best
+                                      Recognized soc circuits as one of the 10 Best
                                       Technology Solution Provider – Industry
                                       Era
                                     </h4>
@@ -813,7 +808,7 @@ const Insemi = () => {
                                     paddingBottom: 0
                                   }}
                                 >
-                                  InSemi: IoT Practices to Bring Devices
+                                soc circuits: IoT Practices to Bring Devices
                                   Together
                                   <br />
                                 </h4>
@@ -847,7 +842,7 @@ const Insemi = () => {
                                   }}
                                 >
                                   {" "}
-                                  InSemi &amp; Ausdia – Partnership for Semicon
+                                  soc circuits &amp; Ausdia – Partnership for Semicon
                                   Design Excellence!{" "}
                                 </h4>
                                 <a
@@ -920,7 +915,7 @@ const Insemi = () => {
                                               className="font-bold"
                                               style={{ fontSize: 16 }}
                                             >
-                                              I joined InSemi in the hard times
+                                              I joined soc circuits in the hard times
                                               of the COVID-19 Crisis and feel
                                               blessed to be a part of such a
                                               nice work culture. The management
@@ -930,7 +925,7 @@ const Insemi = () => {
                                               evolve and prove your talent.
                                             </p>
                                             <p>
-                                              Thanks for everything, InSemi!
+                                              Thanks for everything, soc circuits!
                                             </p>
                                             <div className="careerTestimonialPicture">
                                               <img
@@ -967,13 +962,13 @@ const Insemi = () => {
                                               className="font-bold"
                                               style={{ fontSize: 16 }}
                                             >
-                                              I have been associated with InSemi
+                                              I have been associated with soc circuits
                                               for almost two fruitful years and
                                               the journey has been impeccably
                                               awesome! The affable nature of the
                                               whole team makes the organization
                                               feel like a close-knit family.
-                                              InSemi is a great organization for
+                                              soc circuits is a great organization for
                                               learning and implementation. It
                                               provides us the ability to learn
                                               and translate those learning into
@@ -1015,7 +1010,7 @@ const Insemi = () => {
                                               className="font-bold"
                                               style={{ fontSize: 16 }}
                                             >
-                                              InSemi is the best place for
+                                            soc circuits is the best place for
                                               professionals looking for the
                                               opportunities in VLSI domain.
                                               Amazing opportunities, diversified
@@ -1093,7 +1088,7 @@ const Insemi = () => {
                             paddingTop: "20px!important"
                           }}
                         >
-                          Let InSemi be your technology partner to accelerate
+                          Let soc circuits be your technology partner to accelerate
                           and execute.
                         </h4>
                       </div>
