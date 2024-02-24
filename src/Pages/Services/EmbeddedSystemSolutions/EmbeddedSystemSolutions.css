@@ -1,0 +1,185 @@
+.whatwedoContainer img{
+    padding-bottom: 20px
+  }
+  .whatwedoContainer h4{
+    padding-bottom: 20px;
+    font-size: 26px!important;
+  }
+  .whatwedoItem{
+    background: #f9f9f9;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid #e7e7e7;
+    font-size: 16px;
+    line-height: 1.7;
+    min-height: 250px;
+    position:relative;
+  }
+  .whatwedoItem .hiddenText{
+    visibility: hidden;
+   	opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: rgb(29 54 84 / 90%);
+    padding: 50px;
+    transition: all .5s linear;
+  }
+  .whatwedoItem:hover>.hiddenText{
+   	opacity:1;
+    visibility: visible;
+  }
+  @media screen and (max-width: 767px){
+    .whatwedoItem .hiddenText{
+      font-size: 12px!important;
+    }
+  }
+
+
+
+
+  .serviceOfferings h2{
+    padding-bottom: 40px;
+    line-height: 1.3;
+    }
+   
+
+
+    .serviceOfferingItem {
+      background: #fff;
+      min-height: 450px;
+      padding: 30px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    }
+
+    .serviceOfferingItem img{
+    padding-bottom: 20px
+    }
+    .serviceOfferingItem h4{
+    padding-bottom:10px;
+    line-height: 1.4
+    }
+    .serviceOfferingItem ul li ul{
+    list-style: circle;
+    padding-bottom: 0px;
+    margin-bottom:0px
+    }
+    
+
+    .board-design .form-trigger-bod {
+    width: 60px;
+    height: 60px;
+    background: #e7e7e7;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    }
+    .board-design .wpcf17{
+    display:none;
+    }
+    
+
+    .firmware-design .form-trigger-frmwr{
+    width: 60px;
+    height: 60px;
+    background: #e7e7e7;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    }
+    .firmware-design .wpcf27{
+    display:none;
+    }
+
+    .fpga-design .form-trigger-fpga{
+    width: 60px;
+    height: 60px;
+    background: #e7e7e7;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    }
+    .fpga-design .wpcf37{
+    display:none;
+    }
+    
+
+    .fpga-verification .form-trigger-fpgavrf{
+    width: 60px;
+    height: 60px;
+    background: #e7e7e7;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    }
+    .fpga-verification .wpcf47{
+    display:none;
+    }
+    
+
+    .mechanical-deign .form-trigger-mech{
+    width: 60px;
+    height: 60px;
+    background: #e7e7e7;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    }
+    .mechanical-deign .wpcf57{
+    display:none;
+    }
+
+    .software-design .form-trigger-software{
+    width: 60px;
+    height: 60px;
+    background: #e7e7e7;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    }
+    .software-design .wpcf67{
+    display:none;
+    }
+
+
+
+    .et_pb_section_6.et_pb_section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-color: #1D3654!important;
+    }
+
+
+    .plugnplaySolutionItem a {
+        color: #ff6b00;
+        letter-spacing: 2px;
+    }

@@ -77,14 +77,7 @@ const Frontend = () => {
           />
         </div>
 
-        <div className="container mt-4">
-          <h1 className="text-center mb-4">Get in Touch</h1>
-          <h2 className="text-center mb-4">
-            Let's talk about your requirements
-          </h2>
-
-          <AboutContact />
-        </div>
+     
       </div>{" "}
     </>
   );

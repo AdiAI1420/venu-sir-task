@@ -22,7 +22,7 @@ const Currentopennings = () => {
     alt="..."
   />
   <div className="card-img-overlay text-center justify-content-center" style={{marginTop:"150px"}}>
-    <h1 className="card-title text-white">Join the Soc Circuits Team</h1>
+    <h1 className="card-title text-white display-4 font-monospace ">Join the Soc Circuits Team</h1>
  
     
   

@@ -31,6 +31,13 @@ import Insemi from './Pages/Insemi/Insemi'
 
 
 import BackToTop from 'react-custom-back-to-top-button';
+import Frenend from './Pages/Services/FrontDesignVerification/Frenend'
+import PhysicalDesign from './Pages/Services/PhysicalDesign/PhysicalDesign'
+import DesignforTest from './Pages/Services/DesignforTest/DesignforTest'
+import FoundationIPDesign from './Pages/Services/FoundationIPDesign/FoundationIPDesign'
+import PostSiliconValidationEmulation from './Pages/Services/PostSiliconValidationEmulation/PostSiliconValidationEmulation'
+import EmbeddedSystemSolutions from './Pages/Services/EmbeddedSystemSolutions/EmbeddedSystemSolutions'
+import SoftwareDevelopmentTesting from './Pages/Services/SoftwareDevelopmentTesting/SoftwareDevelopmentTesting'
 
 const App = () => {
   return (
@@ -49,14 +56,25 @@ const App = () => {
 <Route path="/Lifeatinsemi" element={<Lifeatinsemi  />} />
 <Route path="/Currentopennings" element={<Currentopennings  />} />
 
+// links add
+<Route path="/Frenend" element={<Frenend  />} />
+<Route path="/PhysicalDesign" element={<PhysicalDesign  />} />
+<Route path="/DesignforTest" element={<DesignforTest  />} />
+<Route path="/FoundationIPDesign" element={<FoundationIPDesign  />} />
+<Route path="/PostSiliconValidationEmulation" element={<PostSiliconValidationEmulation  />} />
+<Route path="/EmbeddedSystemSolutions" element={<EmbeddedSystemSolutions  />} />
+<Route path="/SoftwareDevelopmentTesting" element={<SoftwareDevelopmentTesting  />} />
+
 </Routes>
 
 </BrowserRouter>
-<BackToTop  icon={<i className='fas fa-sort-up'></i>}/>
+<BackToTop  icon={<i className='fa fa-arrow-up '></i>}/>
 
 
 
 <Footer />
+
+
 
 </>
   )

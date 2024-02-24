@@ -150,7 +150,7 @@ const Insemi = () => {
                         <div className="et_pb_slider_container_inner">
                           <div className="et_pb_slide_description">
                             <h1 className="et_pb_slide_title">
-                              <a href="https://insemitech.com/services/design-for-test/">
+                              <a href="#">
                                 Design for Test
                               </a>
                             </h1>
@@ -172,7 +172,7 @@ const Insemi = () => {
                             <div className="et_pb_button_wrapper">
                               <a
                                 className="et_pb_button et_pb_more_button"
-                                href="https://insemitech.com/services/design-for-test/"
+                                href="#"
                               >
                                 Learn More
                               </a>
@@ -189,7 +189,7 @@ const Insemi = () => {
                         <div className="et_pb_slider_container_inner">
                           <div className="et_pb_slide_description">
                             <h1 className="et_pb_slide_title">
-                              <a href="https://insemitech.com/services/foundation-ip-design-and-automation/">
+                              <a href="#">
                                 Foundation IP Design &amp; Automation
                               </a>
                             </h1>
@@ -211,7 +211,7 @@ const Insemi = () => {
                             <div className="et_pb_button_wrapper">
                               <a
                                 className="et_pb_button et_pb_more_button"
-                                href="https://insemitech.com/services/foundation-ip-design-and-automation/"
+                                href="#"
                               >
                                 Learn More
                               </a>
@@ -228,7 +228,7 @@ const Insemi = () => {
                         <div className="et_pb_slider_container_inner">
                           <div className="et_pb_slide_description">
                             <h1 className="et_pb_slide_title">
-                              <a href="https://insemitech.com/services/post-silicon-validation-and-emulation/">
+                              <a href="#">
                                 Post Silicon Validation &amp; Emulation
                               </a>
                             </h1>
@@ -250,7 +250,7 @@ const Insemi = () => {
                             <div className="et_pb_button_wrapper">
                               <a
                                 className="et_pb_button et_pb_more_button"
-                                href="https://insemitech.com/services/post-silicon-validation-and-emulation/"
+                                href="#"
                               >
                                 Learn More
                               </a>
@@ -267,7 +267,7 @@ const Insemi = () => {
                         <div className="et_pb_slider_container_inner">
                           <div className="et_pb_slide_description">
                             <h1 className="et_pb_slide_title">
-                              <a href="https://insemitech.com/services/embedded-system-solutions/">
+                              <a href="#">
                                 Embedded System Solutions
                               </a>
                             </h1>
@@ -289,7 +289,7 @@ const Insemi = () => {
                             <div className="et_pb_button_wrapper">
                               <a
                                 className="et_pb_button et_pb_more_button"
-                                href="https://insemitech.com/services/embedded-system-solutions/"
+                                href="#"
                               >
                                 Learn More
                               </a>
@@ -393,7 +393,7 @@ const Insemi = () => {
                               <div className="col-sm-10">
                                 <h4>
                                   <a
-                                    href="/services/front-end-design-and-verification/"
+                                    href="/Frenend"
                                     target="_blank"
                                     rel="noopener"
                                   >
@@ -414,7 +414,7 @@ const Insemi = () => {
                               <div className="col-sm-10">
                                 <h4>
                                   <a
-                                    href="/services/physical-design-and-signoff/"
+                                    href="/PhysicalDesign"
                                     target="_blank"
                                     rel="noopener"
                                   >
@@ -435,7 +435,7 @@ const Insemi = () => {
                               <div className="col-sm-10">
                                 <h4>
                                   <a
-                                    href="/services/design-for-test/"
+                                    href="/DesignforTest"
                                     target="_blank"
                                     rel="noopener"
                                   >
@@ -456,7 +456,7 @@ const Insemi = () => {
                               <div className="col-sm-10">
                                 <h4>
                                   <a
-                                    href="/services/foundation-ip-design-and-automation/"
+                                    href="/FoundationIPDesign"
                                     target="_blank"
                                     rel="noopener"
                                   >
@@ -477,7 +477,7 @@ const Insemi = () => {
                               <div className="col-sm-10">
                                 <h4>
                                   <a
-                                    href="/services/post-silicon-validation-and-emulation/"
+                                    href="/PostSiliconValidationEmulation"
                                     target="_blank"
                                     rel="noopener"
                                   >
@@ -527,7 +527,7 @@ const Insemi = () => {
                               <div className="col-sm-10">
                                 <h4>
                                   <a
-                                    href="/services/embedded-system-solutions/"
+                                    href="/EmbeddedSystemSolutions"
                                     target="_blank"
                                     rel="noopener"
                                   >
@@ -548,7 +548,7 @@ const Insemi = () => {
                               <div className="col-sm-10">
                                 <h4>
                                   <a
-                                    href="/services/software-development-and-testing/"
+                                    href="/SoftwareDevelopmentTesting"
                                     target="_blank"
                                     rel="noopener"
                                   >
@@ -581,798 +581,10 @@ const Insemi = () => {
                   </div>
                 </div>
               </div>
-              <div className="et_pb_section et_pb_section_4 et_section_regular">
-                <div className="et_pb_row et_pb_row_3">
-                  <div className="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                    <div className="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
-                      <div className="et_pb_text_inner">
-                        <h2 className="text-center">The SoC Circuits Difference</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="et_pb_row et_pb_row_4">
-                  <div className="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                    <div className="et_pb_module et_pb_code et_pb_code_2">
-                      <div className="et_pb_code_inner">
-                       
-                        <div className="insemiDifference">
-                          <div className="row">
-                            <div className="col-sm-3">
-                              <div
-                                className="insemiDifferenceItem"
-                                style={{ borderRight: "1px solid #e7e7e7" }}
-                              >
-                              <h2 className='text-warning'>
-                                  60+
-                                </h2>
-                                <p>Satisfied Clients</p>
-                              </div>
-                            </div>
-                            <div className="col-sm-3">
-                              <div className="insemiDifferenceItem">
-                              <h2 className='text-primary'>
-  80%
-</h2>
-
-                                <p>
-                                  of engineers work on lower technology nodes
-                                  (&lt;7nm ff)
-                                </p>
-                              </div>
-                            </div>
-                            <div className="col-sm-3">
-                              <div
-                                className="insemiDifferenceItem"
-                                style={{
-                                  borderLeft: "1px solid #e7e7e7",
-                                  borderRight: "1px solid #e7e7e7"
-                                }}
-                              >
-                                <h2 className='text-success'>
-                                  1100+
-                                </h2>
-                                <p>Technology Specialists</p>
-                              </div>
-                            </div>
-                            <div className="col-sm-3">
-                              <div className="insemiDifferenceItem">
-                              <h2 className='text-info'>
-                                  9+
-                                </h2>
-                                <p>Years in Business</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="et_pb_section et_pb_section_6 et_section_regular">
-                <div className="et_pb_row et_pb_row_5">
-                  <div className="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                    <div className="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
-                      <div className="et_pb_text_inner">
-                        <h2 className="text-center">InSemi Insights</h2>
-                      </div>
-                    </div>
-                    <div className="et_pb_module et_pb_code et_pb_code_3">
-                      <div className="et_pb_code_inner">
-                        <style
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              "\n  .insemiInsightsItem{\n    padding: 30px;\n    margin-bottom: 20px;\n    position: relative;\n  }\n  .insemiInsightsItem p{\n    font-size: 14px;\n  }\n  .insemiInsightsItem h4{\n    font-size: 18px;\n  }\n"
-                          }}
-                        />
-                        <div className="insemiInsightsSections">
-                          <div className="row">
-                            <div className="col-sm-6">
-                              <div
-                                className="insemiInsightsItem"
-                                style={{
-                                  background:
-                                    'url("/wp-content/uploads/2022/05/home-blog.jpg") no-repeat',
-                                  backgroundSize: "cover",
-                                  paddingBottom: 50,
-                                  minHeight: 460
-                                }}
-                              >
-                                <p style={{ color: "#34b8ed" }}>BLOG</p>
-                                <h4
-                                  style={{
-                                    fontSize: "36px!important",
-                                    color: "#fff!important",
-                                    lineHeight: "1.4",
-                                    paddingTop: 50,
-                                    paddingBottom: 60
-                                  }}
-                                >
-                                  Countering Lower Technology Node Challenges
-                                  with Optimal DFT Solutions
-                                </h4>
-                                <a
-                                  href="/blogs/countering-lower-technology-node-challenges-with-optimal-dft-solutions/"
-                                  className="stretched-link"
-                                  target="_blank"
-                                  rel="noopener"
-                                >
-                                  →
-                                </a>
-                              </div>
-                            </div>
-                            <div className="col-sm-6">
-                              <div className="row">
-                                <div className="col-sm-6">
-                                  <div
-                                    className="insemiInsightsItem"
-                                    style={{ background: "#eee" }}
-                                  >
-                                    <p>EDUCATION CENTER</p>
-                                    <h4
-                                      style={{
-                                        lineHeight: "1.4",
-                                        paddingTop: 40
-                                      }}
-                                    >
-                                      Design for Test: Detailed Know How
-                                    </h4>
-                                    <a
-                                      href="/education-center/dft-design-for-test/"
-                                      className="stretched-link"
-                                      target="_blank"
-                                      rel="noopener"
-                                    >
-                                      →
-                                    </a>
-                                  </div>
-                                  <div
-                                    className="insemiInsightsItem"
-                                    style={{ background: "#dda400" }}
-                                  >
-                                    <p className="font-white">BLOG</p>
-                                    <h4
-                                      style={{
-                                        color: "#fff!important",
-                                        lineHeight: "1.4",
-                                        paddingTop: 40
-                                      }}
-                                    >
-                                      DFT- A critical element in product
-                                      development
-                                    </h4>
-                                    <a
-                                      href="/blogs/dft-a-critical-element-in-product-development/"
-                                      className="stretched-link"
-                                      target="_blank"
-                                      rel="noopener"
-                                    >
-                                      →
-                                    </a>
-                                  </div>
-                                </div>
-                                <div className="col-sm-6">
-                                  <div
-                                    className="insemiInsightsItem"
-                                    style={{
-                                      background:
-                                        'url("/wp-content/uploads/2022/05/home-awards.jpg") no-repeat',
-                                      backgroundSize: "cover",
-                                      minHeight: 460
-                                    }}
-                                  >
-                                    <p className="font-white">AWARDS</p>
-                                    <h4
-                                      style={{
-                                        color: "#fff!important",
-                                        lineHeight: "1.4",
-                                        paddingTop: 50,
-                                        paddingBottom: 30
-                                      }}
-                                    >
-                                      Recognized soc circuits as one of the 10 Best
-                                      Technology Solution Provider – Industry
-                                      Era
-                                    </h4>
-                                    {/*- <a href="#" class="stretched-link" target="_blank" rel="noopener">→</a> */}
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="et_pb_module et_pb_code et_pb_code_4">
-                      <div className="et_pb_code_inner">
-                        <div className="insemiInsightsSections">
-                          <div className="row">
-                            <div className="col-sm-6">
-                              <div
-                                className="insemiInsightsItem"
-                                style={{
-                                  background:
-                                    'url("/wp-content/uploads/2022/05/home-news.jpg") no-repeat',
-                                  backgroundSize: "cover",
-                                  paddingBottom: 50
-                                }}
-                              >
-                                <p style={{ color: "#34b8ed" }}>NEWS</p>
-                                <h4
-                                  style={{
-                                    fontSize: "26px!important",
-                                    color: "#fff!important",
-                                    lineHeight: "1.4",
-                                    paddingTop: 30,
-                                    paddingBottom: 0
-                                  }}
-                                >
-                                soc circuits: IoT Practices to Bring Devices
-                                  Together
-                                  <br />
-                                </h4>
-                                <a
-                                  href="https://technology.siliconindia.com/vendor/insemi-iot-practices-to-bring-devices-together-cid-8782.html"
-                                  className="stretched-link"
-                                  target="_blank"
-                                  rel="noopener"
-                                />
-                              </div>
-                            </div>
-                            <div className="col-sm-6">
-                              <div
-                                className="insemiInsightsItem"
-                                style={{
-                                  background:
-                                    'url("/wp-content/uploads/2022/05/home-blog-2.jpg") no-repeat',
-                                  backgroundSize: "cover",
-                                  paddingBottom: 0
-                                }}
-                              >
-                                <p style={{ color: "#fff" }}>NEWS</p>
-                                <h4
-                                  style={{
-                                    fontSize: "26px!important",
-                                    color: "#fff!important",
-                                    lineHeight: "1.4",
-                                    paddingTop: 30,
-                                    paddingBottom: 50,
-                                    paddingRight: 120
-                                  }}
-                                >
-                                  {" "}
-                                  soc circuits &amp; Ausdia – Partnership for Semicon
-                                  Design Excellence!{" "}
-                                </h4>
-                                <a
-                                  href="https://insemitech.com/blogs/insemi-ausdia-partnership/"
-                                  className="stretched-link"
-                                  target="_blank"
-                                  rel="noopener"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="et_pb_section et_pb_section_7 et_pb_with_background et_section_regular">
-                <div className="et_pb_row et_pb_row_6">
-                  <div className="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                    <div className="et_pb_module et_pb_code et_pb_code_5">
-                      <div className="et_pb_code_inner">
-                        <style
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              "\n  .careerTestimonialContainer img{\n    padding:20px 0px\n  }\n"
-                          }}
-                        />
-                        <div className="careerTestimonialContainer">
-                          <div className="container">
-                            <h2
-                              className="text-center"
-                              style={{ paddingBottom: 30 }}
-                            >
-                              Testimonials
-                            </h2>
-                            <div
-                              id="carouselExampleIndicators"
-                              className="carousel slide"
-                              data-ride="carousel"
-                            >
-                              <ol className="carousel-indicators">
-                                <li
-                                  data-target="#carouselExampleIndicators"
-                                  data-slide-to={0}
-                                  className="active"
-                                />
-                                <li
-                                  data-target="#carouselExampleIndicators"
-                                  data-slide-to={1}
-                                />
-                                <li
-                                  data-target="#carouselExampleIndicators"
-                                  data-slide-to={2}
-                                />
-                              </ol>
-                              <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                  <div className="text-center">
-                                    <img
-                                      decoding="async"
-                                      src="/wp-content/uploads/2022/03/quote-icon-left.png"
-                                      className="image-responsive"
-                                    />
-                                    <div className="row">
-                                      <div className="col-sm-9 col-center">
-                                        <div className="careerTestimonialDescription text-center">
-                                          <div className="careerTestimonialBy text-center">
-                                            <p
-                                              className="font-bold"
-                                              style={{ fontSize: 16 }}
-                                            >
-                                              I joined soc circuits in the hard times
-                                              of the COVID-19 Crisis and feel
-                                              blessed to be a part of such a
-                                              nice work culture. The management
-                                              is very amicable and ever-ready
-                                              for assistance. This is the best
-                                              place (in my opinion) to learn,
-                                              evolve and prove your talent.
-                                            </p>
-                                            <p>
-                                              Thanks for everything, soc circuits!
-                                            </p>
-                                            <div className="careerTestimonialPicture">
-                                              <img
-                                                decoding="async"
-                                                src="/wp-content/uploads/2022/03/varun.png"
-                                                alt="Testimonial Varun"
-                                                className="img-responsive center-block"
-                                              />
-                                            </div>
-                                            <h4 style={{ paddingBottom: 0 }}>
-                                              <b>Varun Kothapally</b>
-                                            </h4>
-                                            <p style={{ fontSize: 14 }}>
-                                              Associate Design Engineer - STA
-                                            </p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="carousel-item ">
-                                  <div className="text-center">
-                                    <img
-                                      decoding="async"
-                                      src="/wp-content/uploads/2022/03/quote-icon-left.png"
-                                      className="image-responsive"
-                                    />
-                                    <div className="row">
-                                      <div className="col-sm-9 col-center">
-                                        <div className="careerTestimonialDescription text-center">
-                                          <div className="careerTestimonialBy text-center">
-                                            <p
-                                              className="font-bold"
-                                              style={{ fontSize: 16 }}
-                                            >
-                                              I have been associated with soc circuits
-                                              for almost two fruitful years and
-                                              the journey has been impeccably
-                                              awesome! The affable nature of the
-                                              whole team makes the organization
-                                              feel like a close-knit family.
-                                              soc circuits is a great organization for
-                                              learning and implementation. It
-                                              provides us the ability to learn
-                                              and translate those learning into
-                                              action – the biggest competitive
-                                              advantage.{" "}
-                                            </p>
-                                            <div className="careerTestimonialPicture">
-                                              <img
-                                                decoding="async"
-                                                src="/wp-content/uploads/2022/03/shreelakshmi.png"
-                                                alt="Testimonial Shreelaxmi"
-                                                className="img-responsive center-block"
-                                              />
-                                            </div>
-                                            <h4 style={{ paddingBottom: 0 }}>
-                                              <b>Shreelaxmi Govindan</b>
-                                            </h4>
-                                            <p style={{ fontSize: 14 }}>
-                                              Principal Engineer - Software
-                                            </p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="carousel-item">
-                                  <div className="text-center">
-                                    <img
-                                      decoding="async"
-                                      src="/wp-content/uploads/2022/03/quote-icon-left.png"
-                                      className="image-responsive"
-                                    />
-                                    <div className="row">
-                                      <div className="col-sm-9 col-center">
-                                        <div className="careerTestimonialDescription text-center">
-                                          <div className="careerTestimonialBy text-center">
-                                            <p
-                                              className="font-bold"
-                                              style={{ fontSize: 16 }}
-                                            >
-                                            soc circuits is the best place for
-                                              professionals looking for the
-                                              opportunities in VLSI domain.
-                                              Amazing opportunities, diversified
-                                              work environments, and great
-                                              leadership are what make this
-                                              organization unique in itself.{" "}
-                                            </p>
-                                            <div className="careerTestimonialPicture">
-                                              <img
-                                                decoding="async"
-                                                src="/wp-content/uploads/2022/03/renu.png"
-                                                alt="Testimonial Renu"
-                                                className="img-responsive center-block"
-                                              />
-                                            </div>
-                                            <h4 style={{ paddingBottom: 0 }}>
-                                              <b>Renu Goel</b>
-                                            </h4>
-                                            <p style={{ fontSize: 14 }}>
-                                              Senior Manager - IPD
-                                            </p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <a
-                                className="carousel-control-prev"
-                                href="#carouselExampleIndicators"
-                                role="button"
-                                onclick="$('#carouselExampleIndicators').carousel('prev')"
-                                data-slide="prev"
-                              >
-                                <span
-                                  className="carousel-control-prev-icon"
-                                  aria-hidden="true"
-                                />
-                                <span className="sr-only">Previous</span>
-                              </a>
-                              <a
-                                className="carousel-control-next"
-                                href="#carouselExampleIndicators"
-                                role="button"
-                                onclick="$('#carouselExampleIndicators').carousel('next')"
-                                data-slide="next"
-                              >
-                                <span
-                                  className="carousel-control-next-icon"
-                                  aria-hidden="true"
-                                />
-                                <span className="sr-only">Next</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="et_pb_section et_pb_section_8 et_pb_with_background et_section_regular">
-                <div className="et_pb_row et_pb_row_7 et_pb_gutters2">
-                  <div className="et_pb_column et_pb_column_1_2 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough">
-                    <div className="et_pb_module et_pb_text et_pb_text_3 text-center  et_pb_text_align_left et_pb_bg_layout_light">
-                      <div className="et_pb_text_inner">
-                        <h2 style={{ fontSize: "42px!important" }}>
-                          Thinking of Innovation?
-                        </h2>
-                        <h4
-                          style={{
-                            fontSize: "24px!important",
-                            lineHeight: "1.3",
-                            paddingTop: "20px!important"
-                          }}
-                        >
-                          Let soc circuits be your technology partner to accelerate
-                          and execute.
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="et_pb_column et_pb_column_1_2 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                    <div className="et_pb_module et_pb_code et_pb_code_6">
-                      <div className="et_pb_code_inner">
-                        <style
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              "\n  .contactForm{\n    padding:50px 0px;\n    border-radius:20px;background:#fff\n  }\n  .contactForm h4{\n    padding-bottom: 50px;\n  }\n"
-                          }}
-                        />
-                        <div className="contactFormWrapper">
-                          <div className="row">
-                            <div className="col-sm-12 col-center">
-                              <div className="contactForm shadow-lg">
-                                <h2 className="text-center">Get in Touch</h2>
-                                <h4 className="text-center">
-                                  Let’s talk about your requirements
-                                </h4>
-                                <div className="row">
-                                  <div className="col-sm-11 col-center">
-                                    <div
-                                      className="wpcf7 no-js"
-                                      id="wpcf7-f128-p925-o1"
-                                      lang="en-US"
-                                      dir="ltr"
-                                    >
-                                      <div className="screen-reader-response">
-                                        <p
-                                          role="status"
-                                          aria-live="polite"
-                                          aria-atomic="true"
-                                        />{" "}
-                                        <ul />
-                                      </div>
-                                      <form
-                                        action="/#wpcf7-f128-p925-o1"
-                                        method="post"
-                                        className="wpcf7-form init"
-                                        aria-label="Contact form"
-                                        noValidate="novalidate"
-                                        data-status="init"
-                                      >
-                                        <div style={{ display: "none" }}>
-                                          <input
-                                            type="hidden"
-                                            name="_wpcf7"
-                                            defaultValue={128}
-                                          />
-                                          <input
-                                            type="hidden"
-                                            name="_wpcf7_version"
-                                            defaultValue="5.8.2"
-                                          />
-                                          <input
-                                            type="hidden"
-                                            name="_wpcf7_locale"
-                                            defaultValue="en_US"
-                                          />
-                                          <input
-                                            type="hidden"
-                                            name="_wpcf7_unit_tag"
-                                            defaultValue="wpcf7-f128-p925-o1"
-                                          />
-                                          <input
-                                            type="hidden"
-                                            name="_wpcf7_container_post"
-                                            defaultValue={925}
-                                          />
-                                          <input
-                                            type="hidden"
-                                            name="_wpcf7_posted_data_hash"
-                                            defaultValue=""
-                                          />
-                                        </div>
-                                        <div className="row">
-                                          <div className="col-sm-6">
-                                            <div className="form-group">
-                                              <p>
-                                                <span
-                                                  className="wpcf7-form-control-wrap"
-                                                  data-name="firstname"
-                                                >
-                                                  <input
-                                                    size={40}
-                                                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                                    id="firstname"
-                                                    aria-required="true"
-                                                    aria-invalid="false"
-                                                    placeholder="First name*"
-                                                    defaultValue=""
-                                                    type="text"
-                                                    name="firstname"
-                                                  />
-                                                </span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                          <div className="col-sm-6">
-                                            <div className="form-group">
-                                              <p>
-                                                <span
-                                                  className="wpcf7-form-control-wrap"
-                                                  data-name="lastname"
-                                                >
-                                                  <input
-                                                    size={40}
-                                                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                                    id="lastname"
-                                                    aria-required="true"
-                                                    aria-invalid="false"
-                                                    placeholder="Last name*"
-                                                    defaultValue=""
-                                                    type="text"
-                                                    name="lastname"
-                                                  />
-                                                </span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div className="row">
-                                          <div className="col-sm-6">
-                                            <div className="form-group">
-                                              <p>
-                                                <span
-                                                  className="wpcf7-form-control-wrap"
-                                                  data-name="businessemail"
-                                                >
-                                                  <input
-                                                    size={40}
-                                                    className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control"
-                                                    id="businessemail"
-                                                    aria-required="true"
-                                                    aria-invalid="false"
-                                                    placeholder="Business Email*"
-                                                    defaultValue=""
-                                                    type="email"
-                                                    name="businessemail"
-                                                  />
-                                                </span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                          <div className="col-sm-6">
-                                            <div className="form-group">
-                                              <p>
-                                                <span
-                                                  className="wpcf7-form-control-wrap"
-                                                  data-name="company"
-                                                >
-                                                  <input
-                                                    size={40}
-                                                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                                    id="company"
-                                                    aria-required="true"
-                                                    aria-invalid="false"
-                                                    placeholder="Company*"
-                                                    defaultValue=""
-                                                    type="text"
-                                                    name="company"
-                                                  />
-                                                </span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div className="row">
-                                          <div className="col-sm-6">
-                                            <div className="form-group">
-                                              <p>
-                                                <span
-                                                  className="wpcf7-form-control-wrap"
-                                                  data-name="tel-408"
-                                                >
-                                                  <input
-                                                    size={40}
-                                                    className="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel form-control"
-                                                    id="phonenumer"
-                                                    aria-required="true"
-                                                    aria-invalid="false"
-                                                    placeholder="Phone number*"
-                                                    defaultValue=""
-                                                    type="tel"
-                                                    name="tel-408"
-                                                  />
-                                                </span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                          <div className="col-sm-6">
-                                            <div className="form-group">
-                                              <p>
-                                                <span
-                                                  className="wpcf7-form-control-wrap"
-                                                  data-name="country"
-                                                >
-                                                  <select
-                                                    className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form-control"
-                                                    id="country"
-                                                    aria-required="true"
-                                                    aria-invalid="false"
-                                                    name="country"
-                                                  >
-                                                    <option value="India">
-                                                      India
-                                                    </option>
-                                                    <option value="United States of America">
-                                                      United States of America
-                                                    </option>
-                                                    <option value="Canada">
-                                                      Canada
-                                                    </option>
-                                                    <option value="Europe">
-                                                      Europe
-                                                    </option>
-                                                    <option value="United Kingdom">
-                                                      United Kingdom
-                                                    </option>
-                                                    <option value="Malaysia">
-                                                      Malaysia
-                                                    </option>
-                                                    <option value="Singapore">
-                                                      Singapore
-                                                    </option>
-                                                    <option value="South Korea">
-                                                      South Korea
-                                                    </option>
-                                                  </select>
-                                                </span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div className="form-group">
-                                          <p>
-                                            <span
-                                              className="wpcf7-form-control-wrap"
-                                              data-name="requirements"
-                                            >
-                                              <textarea
-                                                cols={40}
-                                                rows={5}
-                                                className="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control"
-                                                id="requirements"
-                                                aria-required="true"
-                                                aria-invalid="false"
-                                                placeholder="Breif about your requirements"
-                                                name="requirements"
-                                                defaultValue={""}
-                                              />
-                                            </span>
-                                          </p>
-                                        </div>
-                                        <div className="form-group text-center">
-                                          <p>
-                                            <input
-                                              className="wpcf7-form-control wpcf7-submit has-spinner btn btn-primary"
-                                              id="submitForm"
-                                              type="submit"
-                                              defaultValue="Submit"
-                                            />
-                                          </p>
-                                        </div>
-                                        <div
-                                          className="wpcf7-response-output"
-                                          aria-hidden="true"
-                                        />
-                                      </form>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>{" "}
+              
+             
+            
+           
             </div>
           </div>
         </div>

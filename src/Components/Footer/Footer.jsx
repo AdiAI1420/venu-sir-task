@@ -11,10 +11,17 @@ const Footer = () => {
 <>
 
 <>
-  <footer id="footer" style={{backgroundColor:"#1d3654"}} className='mt-5'>
+
+
+
+
+
+
+
+  <footer id="footer" style={{backgroundColor:"#25272e"}} className='mt-5'>
 
        
-    <div className="footer-top"style={{backgroundColor:"#1d3654   "}} >
+    <div className="footer-top"style={{backgroundColor:"#25272e"}} >
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-xl-10">
@@ -22,7 +29,7 @@ const Footer = () => {
         
 
             <div className="col-lg-3 col-md-6 footer-links">
-              <h4>Company</h4>
+              <h4 className='text-white'>Company</h4>
               <ul>
                 <li>
                   <i className="bx bx-chevron-right" /> <a href="#" className="no-underline">About Us</a>
@@ -53,7 +60,7 @@ const Footer = () => {
              
 
               <div className="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
+              <h4 className='text-white'>Our Services</h4>
               <ul>
                 <li>
                   <i className="bx bx-chevron-right" />{" "}
@@ -87,21 +94,25 @@ const Footer = () => {
             </div>
   
 
-              <div className="col-lg-3 col-md-6 footer-contact ">
-                <h4 className='text-white'>Contact Us</h4>
-                <h6 className="text-white-50">
-                 Hyderabad  <br />  <br />
-                 Srinagar Colony 
-                 500054
-                  <br />  <br />
-                Hyderabad  <br />
-                  <br />
-                  <strong>Phone:</strong> +91 90141 90909
-                  <br />
-                  <strong>Email:</strong> venu@gmail.com
-                  <br />
-                </h6>
-              </div>
+            <div className="col-lg-3 col-md-6 footer-contact">
+            <h4 className="text-white">Contact Us</h4>
+            <address className="text-white-50">
+              <p>
+                H.No. 5-5-35/315/14, <br /> Flat No. 501, Sai Baba Colony,
+              </p>
+              <p>
+                Vignanpuri colony main road, Kukatpally Village & Mandal,
+              </p>
+              <p>
+                Medchal-Malkajgiri District, Hyderabad, India
+              </p>
+              <br />
+              <strong>Phone:</strong> +91 90141 90909
+              <br />
+              <strong>Email:</strong> venu@gmail.com
+            </address>
+          </div>
+          
               <div className="col-lg-3 col-md-6 footer-info">
               <h3 className='text-white'>About soc circuits </h3>
               <p className='text-white-50'>
@@ -137,7 +148,7 @@ const Footer = () => {
       <strong>
         <span style={{ color: '#555' }}>
           {' '}
-          Contact | Careers | Privacy Policy © 2022 soc circuits Technologies Pvt Ltd.
+          Contact | Careers | Privacy Policy © 2024 SoC Circuits Technologies Pvt Ltd.
         </span>
       </strong>
       . All Rights Reserved
