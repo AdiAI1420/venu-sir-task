@@ -1,6 +1,4 @@
-body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container{
-    padding-top: 0px!important;
-}
+
 #logo {
     content: url("/wp-content/uploads/2022/03/insemi-logo.png");
 }
@@ -30,7 +28,7 @@ body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-con
 }
 .blogsContentContainer .fullBlogItem .card-title{
     font-weight: bold;
-    font-size: 18px!Important;
+    font-size: 18px !Important;
     color: #1D3654;
 }
 

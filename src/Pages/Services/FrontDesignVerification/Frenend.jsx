@@ -257,7 +257,7 @@ const Frenend = () => {
             </div>
           </article>
         </div>
-        <span className="et_pb_scroll_top et-pb-icon" />
+    
      
       </div>
     </>

@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Insemi.css"
+
+import { Link } from 'react-router-dom'
 const Insemi = () => {
   return (
 <>
@@ -7,7 +9,6 @@ const Insemi = () => {
 
 <div id="page-container">
 
-  {/* #main-header */}
   <div id="et-main-area">
     <div id="main-content">
       <article
@@ -17,7 +18,7 @@ const Insemi = () => {
         <div className="entry-content">
           <div className="et-l et-l--post">
             <div className="et_builder_inner_content et_pb_gutters3">
-              <div className="et_pb_section et_pb_section_0 et_pb_fullwidth_section et_section_regular">
+              <div className="">
                 <div className="et_pb_module et_pb_fullwidth_slider_0 et_pb_slider et_slider_auto et_slider_speed_3000">
                   <div className="et_pb_slides">
                     <div
@@ -50,14 +51,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="/talk-to-an-expert"
-                              >
-                                Talk to an expert
-                              </a>
-                            </div>
+                           
                           </div>
                         </div>
                       </div>
@@ -91,14 +85,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="https://insemitech.com/services/front-end-design-and-verification/"
-                              >
-                                Learn More
-                              </a>
-                            </div>
+                            
                           </div>
                         </div>
                       </div>
@@ -130,14 +117,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="https://insemitech.com/wp-content/uploads/2022/05/home-capabilities-27.png"
-                              >
-                                Learn More
-                              </a>
-                            </div>
+                            
                           </div>
                         </div>
                       </div>
@@ -169,14 +149,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="#"
-                              >
-                                Learn More
-                              </a>
-                            </div>
+                            
                           </div>
                         </div>
                       </div>
@@ -208,14 +181,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="#"
-                              >
-                                Learn More
-                              </a>
-                            </div>
+                            
                           </div>
                         </div>
                       </div>
@@ -247,14 +213,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="#"
-                              >
-                                Learn More
-                              </a>
-                            </div>
+                           
                           </div>
                         </div>
                       </div>
@@ -286,14 +245,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="#"
-                              >
-                                Learn More
-                              </a>
-                            </div>
+                           
                           </div>
                         </div>
                       </div>
@@ -325,14 +277,7 @@ const Insemi = () => {
                                 <span />
                               </p>
                             </div>
-                            <div className="et_pb_button_wrapper">
-                              <a
-                                className="et_pb_button et_pb_more_button"
-                                href="https://insemitech.com/services/software-development-and-testing/"
-                              >
-                                Learn More
-                              </a>
-                            </div>
+                            
                           </div>
                         </div>
                       </div>
@@ -340,11 +285,9 @@ const Insemi = () => {
                   </div>
                 </div>
               </div>
-              <div className="et_pb_section et_pb_section_2 et_pb_fullwidth_section et_section_regular">
-                <div className="et_pb_module et_pb_fullwidth_code et_pb_fullwidth_code_0"></div>
-              </div>
-              <div className="et_pb_section et_pb_section_3 et_section_regular">
-                <div className="et_pb_row et_pb_row_0">
+             
+              <div className="">
+                <div className="">
                   <div className="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
                     <div className="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
                       <div className="et_pb_text_inner">
@@ -392,13 +335,13 @@ const Insemi = () => {
                               </div>
                               <div className="col-sm-10">
                                 <h4>
-                                  <a
-                                    href="/Frenend"
+                                  <Link
+                                    to="/Frenend"
                                     target="_blank"
                                     rel="noopener"
                                   >
                                     Front End Design and Verification
-                                  </a>
+                                  </Link>
                                 </h4>
                               </div>
                             </div>
@@ -434,13 +377,13 @@ const Insemi = () => {
                               </div>
                               <div className="col-sm-10">
                                 <h4>
-                                  <a
-                                    href="/DesignforTest"
+                                  <Link
+                                    to="/DesignforTest"
                                     target="_blank"
                                     rel="noopener"
                                   >
                                     Design for Testability (DFT)
-                                  </a>
+                                  </Link>
                                 </h4>
                               </div>
                             </div>
@@ -455,13 +398,13 @@ const Insemi = () => {
                               </div>
                               <div className="col-sm-10">
                                 <h4>
-                                  <a
-                                    href="/FoundationIPDesign"
+                                  <Link
+                                    to="/FoundationIPDesign"
                                     target="_blank"
                                     rel="noopener"
                                   >
                                     Foundation IP Design and Automation
-                                  </a>
+                                  </Link>
                                 </h4>
                               </div>
                             </div>
@@ -476,14 +419,14 @@ const Insemi = () => {
                               </div>
                               <div className="col-sm-10">
                                 <h4>
-                                  <a
-                                    href="/PostSiliconValidationEmulation"
+                                  <Link
+                                    to="/PostSiliconValidationEmulation"
                                     target="_blank"
                                     rel="noopener"
                                   >
-                                    {" "}
-                                    Post Silicon Validation &amp; Emulation{" "}
-                                  </a>
+                            
+                                    Post Silicon Validation &amp; Emulation
+                                  </Link>
                                 </h4>
                               </div>
                             </div>
@@ -526,13 +469,13 @@ const Insemi = () => {
                               </div>
                               <div className="col-sm-10">
                                 <h4>
-                                  <a
-                                    href="/EmbeddedSystemSolutions"
+                                  <Link
+                                    to="/EmbeddedSystemSolutions"
                                     target="_blank"
                                     rel="noopener"
                                   >
                                     Embedded System Solutions
-                                  </a>
+                                  </Link>
                                 </h4>
                               </div>
                             </div>
@@ -547,13 +490,13 @@ const Insemi = () => {
                               </div>
                               <div className="col-sm-10">
                                 <h4>
-                                  <a
-                                    href="/SoftwareDevelopmentTesting"
+                                  <Link
+                                    to="/SoftwareDevelopmentTesting"
                                     target="_blank"
                                     rel="noopener"
                                   >
                                     Software Development and Testing
-                                  </a>
+                                  </Link>
                                 </h4>
                               </div>
                             </div>

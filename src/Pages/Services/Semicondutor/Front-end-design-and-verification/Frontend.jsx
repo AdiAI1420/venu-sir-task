@@ -63,9 +63,9 @@ const Frontend = () => {
         <OurServiceOffering />
       </div>
       <div className="container mt-5" style={{paddingTop:"450px"}}>
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 ">
           <h3>Front End Design & Verification Expertise</h3>
-          <p className="px-3 mt-1">
+          <p className="px-3 mr-auto mx-5">
             With a laser-sharp focus on all design parameters, Team soc circuits
             leaves no stone unturned in Front End Design and Verifications. This
             helps you get error-free designs in the least turnaround time.

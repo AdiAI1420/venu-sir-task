@@ -148,17 +148,13 @@ const Footer = () => {
       <strong>
         <span style={{ color: '#555' }}>
           {' '}
-          Contact | Careers | Privacy Policy © 2024 SoC Circuits Technologies Pvt Ltd.
+       |   Contact | Careers | Privacy Policy © 2024 SoC Circuits Technologies Pvt Ltd. |
         </span>
       </strong>
-      . All Rights Reserved
+      All Rights Reserved | <strong> Designed by</strong><a href="#" style={{ color: '#3498db', textDecoration: 'none' }}> Venu</a>
     </p>
   </div>
-  <div className="credits">
-    <p style={{ fontSize: '16px', fontWeight: 'bold', margin: '0' }}>
-      Designed by <a href="#" style={{ color: '#3498db', textDecoration: 'none' }}>Venu</a>
-    </p>
-  </div>
+ 
 </div>
 
   </footer>

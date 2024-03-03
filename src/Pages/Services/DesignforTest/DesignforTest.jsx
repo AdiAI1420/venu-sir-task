@@ -27,7 +27,7 @@ const DesignforTest = () => {
               <div className="et_pb_section et_pb_section_0 et_pb_section_parallax et_pb_with_background et_section_regular">
                 <div className="et_parallax_bg_wrap"><div className="et_parallax_bg" style={{backgroundImage: 'url(https://insemitech.com/wp-content/uploads/2022/05/dft-banner.jpg)'}} /></div>
                 <div className="et_pb_row et_pb_row_0">
-                  <div className="et_pb_column et_pb_column_1_2 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough">
+                  <div className="">
                     <div className="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
                       <div className="et_pb_text_inner"><h1 className="font-white display-4 mt-5">Design for Test </h1></div>
                     </div><div className="et_pb_module et_pb_divider et_pb_divider_0 et_pb_divider_position_ et_pb_space"><div className="et_pb_divider_internal" /></div><div className="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
@@ -35,7 +35,6 @@ const DesignforTest = () => {
                     </div><div className="et_pb_module et_pb_code et_pb_code_0">
                       <div className="et_pb_code_inner"><a href="" className="btn btn-blue" target="_blank" rel="noopener">TALK TO AN EXPERT →</a></div>
                     </div>
-                  </div><div className="et_pb_column et_pb_column_1_2 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
                   </div>
                 </div>
               </div><div className="et_pb_section et_pb_section_1 et_section_regular">
